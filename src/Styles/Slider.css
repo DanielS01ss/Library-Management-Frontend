@@ -1,0 +1,55 @@
+.slider{
+  background-image:url("../Images/Landing-Page-Backgrounds/jon-moore-5fIoyoKlz7A-unsplash.jpg");
+  height: 550px;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider-content{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider-books-image{
+    height: 230px;
+}
+
+
+.slideinanimation{
+  animation-duration: 2s;
+  animation-name: slidein;
+  position: relative;
+}
+
+.slideinright{
+  animation-duration: 2s;
+  animation-name: slideinfromright;
+  position: relative;
+
+}
+
+@keyframes slidein {
+   from{
+     right: 1000px;
+   }
+    to{
+      right: 0;
+    }
+}
+
+@keyframes slideinfromright{
+  from{
+    right: -3000px;
+  }
+  to{
+    right: 0px;
+  }
+}
+
+@media screen and (max-width:780px){
+
+  .slider-books-image{
+      height: 150px;
+  }
+
+}
