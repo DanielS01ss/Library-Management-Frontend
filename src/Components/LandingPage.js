@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Slider from "./Slider";
+import CategoryCard from "./CategoryCard";
+
 
 const LandingPage = ()=>{
 
@@ -8,6 +10,7 @@ const LandingPage = ()=>{
     <div>
         <Navbar/>
         <Slider/>
+        <CategoryCard title="Arts & Photography" image={Art}/>
     </div>
   )
 };
