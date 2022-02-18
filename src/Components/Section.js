@@ -10,7 +10,7 @@ const Section = ()=>{
   return(
     <div className="md:py-20 lg:py-20 sm:py-5 sm:px-20  mx-auto w-full">
       <div className="flex sm:flex-col md:flex-row lg:flex-row justify-between sm:px-10 px-40 mx-auto">
-        <p className="md:text-lg lg:text-2xl sm:text-xl text-3xl">Featured Categories</p>
+        <p className="md:text-lg lg:text-2xl sm:text-xl font-bold text-3xl">Featured Categories</p>
         <p>See All</p>
       </div>
       <div className="flex flex-wrap flex-row">

@@ -19,7 +19,7 @@ const BookCard = ()=>{
   }
 
   return(
-      <div className="w-80 px-10  boorder-4 border-black">
+      <div className="w-80   boorder-4 border-black">
         <div className="border-2 px-5 border-gray hover:border-black">
           <img src={BookImage} className="px-6 py-9" />
           <p className="py-1 text-xl">Book Name</p>

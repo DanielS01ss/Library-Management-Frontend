@@ -8,7 +8,7 @@ const Navbar = ()=>{
       <nav className="bg-white shadow-lg mx-auto">
         <div className=" mx-auto px-10 py-10">
           <div className="flex">
-            My website
+            BookLand
             <div className="px-40">
               <ul className="hidden  xl:flex content-around">
                   <li className="text-lg px-10">Home</li>

@@ -4,6 +4,10 @@ import Slider from "./Slider";
 import CategoryCard from "./CategoryCard";
 import Section from "./Section";
 import BookCard from "./BookCard";
+import MostBorrowed from "./MostBorrowed";
+import AuthorsSection from "./AuthorsSection";
+import NewsLetter from "./NewsLetter";
+import Footer from "./Footer";
 
 const LandingPage = ()=>{
 
@@ -12,7 +16,10 @@ const LandingPage = ()=>{
         <Navbar/>
         <Slider/>
         <Section/>
-        <BookCard/>
+        <MostBorrowed/>
+        <AuthorsSection/>
+        <NewsLetter/>
+        <Footer/>
     </div>
   )
 };
