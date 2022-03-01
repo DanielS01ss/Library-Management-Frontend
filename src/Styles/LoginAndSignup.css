@@ -1,0 +1,23 @@
+.login-signup-container{
+  background-image: url("../Images/singup-login-cover.jpg");
+  height: 120vh;
+  background-size: cover;
+
+}
+
+.login-card{
+  border-radius: 10px;
+  position: relative;
+  top:7px;
+  padding-left: 6px;
+}
+
+.login-btn{
+  position: relative;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.sign-with-google{
+  width: 93%;
+}
