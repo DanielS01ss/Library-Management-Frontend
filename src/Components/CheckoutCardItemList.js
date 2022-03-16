@@ -3,6 +3,7 @@ import BookImg from "../Images/BooksImage/images/a-Dolls-house.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseChimney } from "@fortawesome/free-solid-svg-icons";
 import {faBuildingColumns} from "@fortawesome/free-solid-svg-icons";
+import {faCreditCard} from "@fortawesome/free-solid-svg-icons";
 
 
 const CheckoutCardItemsList = ()=>{
@@ -66,8 +67,10 @@ const CheckoutCardItemsList = ()=>{
 
       </div>
 
-        
-
+      <div className="flex flex-col">
+        <button className="hover:bg-black hover:text-white text-lg font-bold w-[60%] px-5 py-5 mx-auto  border-2 my-5 border-black rounded-lg">Place book order</button>
+        <button className="hover:bg-black hover:text-white text-lg font-bold w-[60%] px-5 py-5 mx-auto  border-2 my-5 border-black rounded-lg">Place book order and pay <FontAwesomeIcon icon={faCreditCard} className="px-4"/> </button>
+      </div>
 
     </div>
   )
