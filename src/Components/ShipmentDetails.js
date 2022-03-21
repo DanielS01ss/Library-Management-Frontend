@@ -33,10 +33,7 @@ const ShipmentDetails =()=>{
          <span className="text-lg px-10"> New Adress </span>
        </span>
       </label>
-
       </div>
-   
-
    </div>
  );
 
